@@ -1,0 +1,39 @@
+{
+  "name": "@dhmk/h",
+  "version": "0.0.1",
+  "description": "Another virtual DOM with JSX support.",
+  "keywords": [
+    "vdom",
+    "jsx"
+  ],
+  "license": "MIT",
+  "repository": "github:dhmk083/dhmk-h",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "module": "index.js",
+  "sideEffects": false,
+  "files": [
+    "*.js",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "version": "git add -A",
+    "postversion": "git push && git push --tags"
+  },
+  "peerDependencies": {
+    "@dhmk/atom": "^0.0.1",
+    "@dhmk/cell": "^0.0.2"
+  },
+  "peerDependenciesMeta": {
+    "@dhmk/atom": {
+      "optional": true
+    },
+    "@dhmk/cell": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@dhmk/atom": "^0.0.1",
+    "@dhmk/cell": "^0.0.2"
+  }
+}

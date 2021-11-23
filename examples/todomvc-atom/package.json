@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "resolutions": {
+    "@dhmk/atom": "../../node_modules/@dhmk/atom"
+  }
+}
